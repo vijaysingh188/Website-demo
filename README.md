@@ -1,6 +1,6 @@
-1.Create fresh directory<br>
-2.cd Website-demo <br>
-3.git clone https://github.com/vijaysingh188/Website-demo/tree/master<br>
+1.Create fresh directory <br>
+2.git clone https://github.com/vijaysingh188/Website-demo/tree/master <br>
+3.cd Website-demo <br>
 4.git checkout master<br>
 5.pip install -r requirements.txt<br>
 6.python manage.py migrate <br>
