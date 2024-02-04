@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Website</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1em;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00bcd4;
+        }
+
+        .hero-section {
+            text-align: center;
+            padding: 2em;
+            background-color: #00bcd4;
+            color: #fff;
+        }
+
+        .hero-section h1 {
+            font-size: 2.5em;
+            margin-bottom: 0.5em;
+        }
+
+        .content {
+            padding: 2em;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1em;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cool Website</h1>
+    </header>
+
+    <nav>
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'about' %}">About</a>
+        <a href="{% url 'service' %}">Services</a>
+        <a href="{% url 'contact' %}">Contact</a>
+    </nav>
+
+    <div class="hero-section">
+        <h1>Welcome to our Cool Website!</h1>
+        <p>Discover amazing things and have a great experience.</p>
+    </div>
+
+    <div class="content">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.</p>
+
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Design</li>
+            <li>Graphic Design</li>
+            <li>Mobile App Development</li>
+        </ul>
+    </div>
+
+    <footer>
+        &copy; 2024 Cool Website. All rights reserved.
+    </footer>
+</body>
+
+</html>
