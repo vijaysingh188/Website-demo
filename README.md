@@ -8,4 +8,5 @@
 8.python manage.py makemigrations <br>
 9.(once more) python manage.py migrate <br>
 10.python manage.py createsuperuser <br>
-10.visit urs(http://127.0.0.1:8000/) <br>
+11. python manage.py collectstatic <br>
+12.visit urs(http://127.0.0.1:8000/) <br>
